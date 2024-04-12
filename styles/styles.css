@@ -88,3 +88,16 @@ body{
 .card-container:hover{
     box-shadow: 20px 20px;
 }
+
+@media(max-width: 375px){
+    .card-container{
+        width: 20rem;
+    }
+    .card-container img{
+        width: 75%;
+    }
+    .card-footer img{
+        height: 3rem;
+        width: 3rem;
+    }
+}
